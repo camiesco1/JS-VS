@@ -43,7 +43,25 @@ function twoWords(words) {
     let [a, b] = words.split(" "); // You need to split the words first
 
     if (a[0] == b[0]) // Almost, this one is missing
-        return true;
+        return true
     else
-        return false;
+        return false
 }
+
+/*
+Challenge #7
+Given two integers, return True if the sum of the integers is 20 or if one of the integers is 20. If not, return False.
+
+Ie:
+makes_twenty(20,10) --> True
+makes_twenty(12,8) --> True
+makes_twenty(2,3) --> False
+*/
+
+function sum20 (a, b) {
+    if (a == 20 || b == 20 || a + b == 20)
+        return true
+    else
+        return false
+}
+
