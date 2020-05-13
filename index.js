@@ -65,3 +65,18 @@ function sum20 (a, b) {
         return false
 }
 
+
+/*
+Challenge #8
+Write a function that capitalizes the first and fourth letters of a name.
+
+Ie: 
+old_macdonald('macdonald') --> MacDonald
+*/
+
+function capitalise (str) {
+
+    return str.toUpperCase()
+}
+
+console.log(capitalise("MacDonalds"));
